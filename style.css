@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito+Sans:wght@300;400&family=Roboto:wght@100&display=swap");
+
+body {
+  background-color: aquamarine;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.app img {
+  width: 51px;
+  padding: 0 8px;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.container {
+  min-height: 70vh;
+  background-color: black;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  width: 70%;
+  margin: 15px auto;
+  border-radius: 11px;
+  padding: 3px;
+  background-image: url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom {
+  position: sticky;
+  height: 100px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons{
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+#ProgressBar{
+  width: 80vw;
+}
+
+.Item{
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 80%;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.Item img{
+  width: 40px;
+  border-radius: 12px;
+  border-radius: 20px;
+}
+
+.Timestamp{
+  padding: 0 20px;
+}
+
+.Timestamp i{
+  cursor: pointer;
+}
+
+.songInfo{
+  position: absolute;
+  left: 10vw;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.songInfo img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
